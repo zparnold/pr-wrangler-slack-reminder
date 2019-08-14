@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const ReminderText string = "You are up this week to wrangle the PR's/Issues for Sig Docs! :tada:"
+const ReminderText string = "You're this week's scheduled [PR Wrangler](https://kubernetes.io/docs/contribute/advanced/#be-the-pr-wrangler-for-a-week) for SIG Docs! :tada:"
 
 var GithubUsernameToSlackUsernameMap = map[string]string{
 	"zparnold": "U7EFYPNUR",
